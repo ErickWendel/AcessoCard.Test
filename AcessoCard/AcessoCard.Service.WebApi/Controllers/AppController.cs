@@ -45,7 +45,7 @@ namespace AcessoCard.Service.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, "Erro ao Cadastrar!");
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "Erro ao Cadastrar!");
 
             }
         }
@@ -62,7 +62,7 @@ namespace AcessoCard.Service.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, "Erro ao Deletar!");
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "Erro ao Deletar!");
 
             }
         }
@@ -83,7 +83,7 @@ namespace AcessoCard.Service.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, "Erro ao Atualizar!");
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, "Erro ao Atualizar!");
 
             }
         }

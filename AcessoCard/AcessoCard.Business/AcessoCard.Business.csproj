@@ -43,15 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\ICrud.cs" />
     <Compile Include="ContatoBus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserBus.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AcessoCard.Contracts\AcessoCard.Contracts.csproj">
-      <Project>{6ef5f1bc-fafb-450e-aef7-a1251feba68b}</Project>
-      <Name>AcessoCard.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AcessoCard.Models\AcessoCard.Models.csproj">
       <Project>{60a4d992-97c1-42b2-a7f9-7ddf439f6d34}</Project>
       <Name>AcessoCard.Models</Name>

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AcessoCard.Models;
+﻿using AcessoCard.Models;
+using AcessoCard.Repository.Base;
 
 namespace AcessoCard.Repository
 {
-    public sealed class UserRep : Contracts.Crud<UserMod>
+    public sealed class UserRep : Crud<UserMod>
     {
     }
 }

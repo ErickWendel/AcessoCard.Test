@@ -34,7 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,19 +51,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Crud.cs" />
+    <Compile Include="Base\Interfaces\ICrud.cs" />
     <Compile Include="ContatoRep.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserRep.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AcessoCard.Contracts\AcessoCard.Contracts.csproj">
-      <Project>{6ef5f1bc-fafb-450e-aef7-a1251feba68b}</Project>
-      <Name>AcessoCard.Contracts</Name>
+    <ProjectReference Include="..\AcessoCard.DataBase\AcessoCard.DataBase.csproj">
+      <Project>{52edacd9-f5fa-4e6c-8df8-5563dd889d1f}</Project>
+      <Name>AcessoCard.DataBase</Name>
     </ProjectReference>
     <ProjectReference Include="..\AcessoCard.Models\AcessoCard.Models.csproj">
       <Project>{60a4d992-97c1-42b2-a7f9-7ddf439f6d34}</Project>
       <Name>AcessoCard.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

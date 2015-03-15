@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using AcessoCard.Models;
 using AcessoCard.Repository;
 
 namespace AcessoCard.Business
 {
-    public sealed class UserBus : Contracts.Base.ICrud<UserMod>
+    public sealed class UserBus : Base.ICrud<UserMod>
     {
         public void Cadastrar(UserMod item)
         {

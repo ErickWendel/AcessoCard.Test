@@ -5,7 +5,7 @@ using AcessoCard.Repository;
 
 namespace AcessoCard.Business
 {
-    public sealed class ContatoBus : Contracts.Base.ICrud<ContatoMod>
+    public sealed class ContatoBus : Base.ICrud<ContatoMod>
     {
 
 

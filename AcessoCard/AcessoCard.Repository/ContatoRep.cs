@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AcessoCard.Models;
+using AcessoCard.Repository.Base;
 
 namespace AcessoCard.Repository
 {
-    public sealed class ContatoRep : Contracts.Crud<ContatoMod>
+    public sealed class ContatoRep : Crud<ContatoMod>
     {
     }
 }

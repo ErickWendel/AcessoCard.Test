@@ -9,7 +9,12 @@ namespace AcessoCard.UI.MVC.Controllers
     [AllowAnonymous]
     public class UsersController : Controller
     {
-        // GET: Users
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        
         
     }
 }

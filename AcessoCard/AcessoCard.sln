@@ -23,10 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Business", "Aces
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A90518D0-AEDA-4AA6-98AA-53348E751250}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{F991F6DC-0B28-49F7-85D4-027BD1A76241}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Contracts", "AcessoCard.Contracts\AcessoCard.Contracts.csproj", "{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{88D2FE78-51F4-4B4E-B0E1-A7FEC38BF14B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Service.WebApi", "AcessoCard.Service.WebApi\AcessoCard.Service.WebApi.csproj", "{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}"
@@ -37,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Repository", "Ac
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
+		SccNumberOfProjects = 7
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://acessocardproject.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -45,30 +41,26 @@ Global
 		SccProjectTopLevelParentUniqueName1 = AcessoCard.sln
 		SccProjectName1 = AcessoCard.Business
 		SccLocalPath1 = AcessoCard.Business
-		SccProjectUniqueName2 = AcessoCard.Contracts\\AcessoCard.Contracts.csproj
+		SccProjectUniqueName2 = AcessoCard.DataBase\\AcessoCard.DataBase.csproj
 		SccProjectTopLevelParentUniqueName2 = AcessoCard.sln
-		SccProjectName2 = AcessoCard.Contracts
-		SccLocalPath2 = AcessoCard.Contracts
-		SccProjectUniqueName3 = AcessoCard.DataBase\\AcessoCard.DataBase.csproj
+		SccProjectName2 = AcessoCard.DataBase
+		SccLocalPath2 = AcessoCard.DataBase
+		SccProjectUniqueName3 = AcessoCard.Models\\AcessoCard.Models.csproj
 		SccProjectTopLevelParentUniqueName3 = AcessoCard.sln
-		SccProjectName3 = AcessoCard.DataBase
-		SccLocalPath3 = AcessoCard.DataBase
-		SccProjectUniqueName4 = AcessoCard.Models\\AcessoCard.Models.csproj
+		SccProjectName3 = AcessoCard.Models
+		SccLocalPath3 = AcessoCard.Models
+		SccProjectUniqueName4 = AcessoCard.Service.WebApi\\AcessoCard.Service.WebApi.csproj
 		SccProjectTopLevelParentUniqueName4 = AcessoCard.sln
-		SccProjectName4 = AcessoCard.Models
-		SccLocalPath4 = AcessoCard.Models
-		SccProjectUniqueName5 = AcessoCard.Service.WebApi\\AcessoCard.Service.WebApi.csproj
+		SccProjectName4 = AcessoCard.Service.WebApi
+		SccLocalPath4 = AcessoCard.Service.WebApi
+		SccProjectUniqueName5 = AcessoCard.UI.MVC\\AcessoCard.UI.MVC.csproj
 		SccProjectTopLevelParentUniqueName5 = AcessoCard.sln
-		SccProjectName5 = AcessoCard.Service.WebApi
-		SccLocalPath5 = AcessoCard.Service.WebApi
-		SccProjectUniqueName6 = AcessoCard.UI.MVC\\AcessoCard.UI.MVC.csproj
+		SccProjectName5 = AcessoCard.UI.MVC
+		SccLocalPath5 = AcessoCard.UI.MVC
+		SccProjectUniqueName6 = AcessoCard.Repository\\AcessoCard.Repository.csproj
 		SccProjectTopLevelParentUniqueName6 = AcessoCard.sln
-		SccProjectName6 = AcessoCard.UI.MVC
-		SccLocalPath6 = AcessoCard.UI.MVC
-		SccProjectUniqueName7 = AcessoCard.Repository\\AcessoCard.Repository.csproj
-		SccProjectTopLevelParentUniqueName7 = AcessoCard.sln
-		SccProjectName7 = AcessoCard.Repository
-		SccLocalPath7 = AcessoCard.Repository
+		SccProjectName6 = AcessoCard.Repository
+		SccLocalPath6 = AcessoCard.Repository
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,10 +79,6 @@ Global
 		{6BCD8B3D-435F-4339-A584-6389EBF85041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BCD8B3D-435F-4339-A584-6389EBF85041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BCD8B3D-435F-4339-A584-6389EBF85041}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -115,8 +103,6 @@ Global
 		{EC4D145D-248C-430D-B14E-956FAAD124BF} = {A90518D0-AEDA-4AA6-98AA-53348E751250}
 		{6BCD8B3D-435F-4339-A584-6389EBF85041} = {EC4D145D-248C-430D-B14E-956FAAD124BF}
 		{A90518D0-AEDA-4AA6-98AA-53348E751250} = {1520BC91-A3EB-41F5-B3EF-8265A5375ED3}
-		{F991F6DC-0B28-49F7-85D4-027BD1A76241} = {A90518D0-AEDA-4AA6-98AA-53348E751250}
-		{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B} = {F991F6DC-0B28-49F7-85D4-027BD1A76241}
 		{88D2FE78-51F4-4B4E-B0E1-A7FEC38BF14B} = {A90518D0-AEDA-4AA6-98AA-53348E751250}
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0} = {1DD0285E-B76B-4B43-B3E2-F8E576FF07A6}
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F} = {65394CCE-F98D-444B-9D28-4BF5FBD10DDC}

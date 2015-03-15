@@ -11,6 +11,10 @@
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    @RenderSection("scripts", false)
+
+
 </head>
 <body>
     <!--<div class="navbar navbar-inverse navbar-fixed-top">
@@ -40,7 +44,6 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - Erick Wendel Web Developer</p>
-            @RenderSection("scripts", false)
 
 
         </footer>

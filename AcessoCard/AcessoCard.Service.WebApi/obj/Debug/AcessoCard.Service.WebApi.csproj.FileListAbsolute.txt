@@ -33,7 +33,6 @@ D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Service.WebApi.d
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Service.WebApi.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Service.WebApi.pdb
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Business.dll
-D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Contracts.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Models.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\EntityFramework.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\EntityFramework.SqlServer.dll
@@ -45,7 +44,6 @@ D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.WebHost.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.DataBase.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Business.pdb
-D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Contracts.pdb
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Models.pdb
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\EntityFramework.xml
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\EntityFramework.SqlServer.xml

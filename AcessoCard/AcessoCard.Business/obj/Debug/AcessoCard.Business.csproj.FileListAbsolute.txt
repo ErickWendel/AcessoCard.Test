@@ -18,12 +18,10 @@ D:\Projetos\AcessoCard\AcessoCard.Business\obj\Debug\AcessoCard.Business.dll
 D:\Projetos\AcessoCard\AcessoCard.Business\obj\Debug\AcessoCard.Business.pdb
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Business.dll
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Business.pdb
-D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Contracts.dll
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Models.dll
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Repository.dll
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.DataBase.dll
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\EntityFramework.dll
-D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Contracts.pdb
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Models.pdb
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Repository.pdb
 D:\Projetos\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.DataBase.pdb

@@ -98,6 +98,8 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AppController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Filters\BasicAuthAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -120,10 +122,6 @@
     <ProjectReference Include="..\AcessoCard.Business\AcessoCard.Business.csproj">
       <Project>{6bcd8b3d-435f-4339-a584-6389ebf85041}</Project>
       <Name>AcessoCard.Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AcessoCard.Contracts\AcessoCard.Contracts.csproj">
-      <Project>{6ef5f1bc-fafb-450e-aef7-a1251feba68b}</Project>
-      <Name>AcessoCard.Contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\AcessoCard.Models\AcessoCard.Models.csproj">
       <Project>{60a4d992-97c1-42b2-a7f9-7ddf439f6d34}</Project>
