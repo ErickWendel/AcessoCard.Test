@@ -3,11 +3,8 @@
 Autenticacao.controller("AutenticacaoController", function ($scope, $http) {
 
     $scope.logar = function (evento) { 
-        var formularioValido = $scope.formularioLogin.$valid;
         var form = $('form').valid();
-        
         if (form) {
-
             var btn = $(evento.currentTarget);
             btn.button('Carregando...');
 

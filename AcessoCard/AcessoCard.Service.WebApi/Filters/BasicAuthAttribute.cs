@@ -6,6 +6,7 @@ using System.Threading;
 using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
+using AcessoCard.Models;
 
 namespace AcessoCard.Service.WebApi.Filters
 {
@@ -22,6 +23,7 @@ namespace AcessoCard.Service.WebApi.Filters
 
             var credenciais = Encoding.GetEncoding("UTF-8").GetString(
                 Convert.FromBase64String(headersRequisicao.Parameter)).Split(':');
+            var usuario = new UserMod {Email = credenciais[0], Senha = credenciais[1]};
 
             var email = credenciais[0];
             var senha = credenciais[1];
