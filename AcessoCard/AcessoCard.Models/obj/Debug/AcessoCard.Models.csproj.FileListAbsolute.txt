@@ -1,0 +1,5 @@
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Models\bin\Debug\AcessoCard.Models.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Models\bin\Debug\AcessoCard.Models.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Models\obj\Debug\AcessoCard.Models.csprojResolveAssemblyReference.cache
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Models\obj\Debug\AcessoCard.Models.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Models\obj\Debug\AcessoCard.Models.pdb

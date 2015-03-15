@@ -1,0 +1,15 @@
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Business.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Business.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\obj\Debug\AcessoCard.Business.csprojResolveAssemblyReference.cache
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\obj\Debug\AcessoCard.Business.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\obj\Debug\AcessoCard.Business.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Contracts.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Models.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Contracts.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Models.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Service.Repository.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.DataBase.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\EntityFramework.dll
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.Service.Repository.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\AcessoCard.DataBase.pdb
+C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Business\bin\Debug\EntityFramework.xml
