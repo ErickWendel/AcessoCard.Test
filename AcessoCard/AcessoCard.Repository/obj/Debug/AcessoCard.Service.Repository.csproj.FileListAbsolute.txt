@@ -11,3 +11,16 @@ C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Service.Repository\bin\Debug\A
 C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Service.Repository\bin\Debug\EntityFramework.dll
 C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.DataBase.pdb
 C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.Service.Repository\bin\Debug\EntityFramework.xml
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.Repository.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.Repository.pdb
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.Contracts.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.Models.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.DataBase.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\EntityFramework.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.Contracts.pdb
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.Models.pdb
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\AcessoCard.DataBase.pdb
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\bin\Debug\EntityFramework.xml
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\obj\Debug\AcessoCard.Service.Repository.csprojResolveAssemblyReference.cache
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\obj\Debug\AcessoCard.Repository.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.Repository\obj\Debug\AcessoCard.Repository.pdb

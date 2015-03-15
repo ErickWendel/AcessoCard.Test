@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AcessoCard.Models;
-using AcessoCard.Service.Repository;
+using AcessoCard.Repository;
 
 namespace AcessoCard.Business
 {

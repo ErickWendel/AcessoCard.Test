@@ -7,8 +7,8 @@
     <ProjectGuid>{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AcessoCard.Service.Repository</RootNamespace>
-    <AssemblyName>AcessoCard.Service.Repository</AssemblyName>
+    <RootNamespace>AcessoCard.Repository</RootNamespace>
+    <AssemblyName>AcessoCard.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

@@ -56,9 +56,9 @@
       <Project>{60a4d992-97c1-42b2-a7f9-7ddf439f6d34}</Project>
       <Name>AcessoCard.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AcessoCard.Service.Repository\AcessoCard.Service.Repository.csproj">
+    <ProjectReference Include="..\AcessoCard.Repository\AcessoCard.Repository.csproj">
       <Project>{37cabfab-2edd-4f5d-ac4f-f9cf45396ff9}</Project>
-      <Name>AcessoCard.Service.Repository</Name>
+      <Name>AcessoCard.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using AcessoCard.Models;
-using AcessoCard.Service.Repository;
+using AcessoCard.Repository;
 
 namespace AcessoCard.Business
 {

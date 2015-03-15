@@ -31,9 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Service.WebApi", "AcessoCard.Service.WebApi\AcessoCard.Service.WebApi.csproj", "{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Service.Repository", "AcessoCard.Service.Repository\AcessoCard.Service.Repository.csproj", "{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.DataBase", "AcessoCard.DataBase\AcessoCard.DataBase.csproj", "{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Repository", "AcessoCard.Repository\AcessoCard.Repository.csproj", "{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -57,18 +57,18 @@ Global
 		SccProjectTopLevelParentUniqueName4 = AcessoCard.sln
 		SccProjectName4 = AcessoCard.Models
 		SccLocalPath4 = AcessoCard.Models
-		SccProjectUniqueName5 = AcessoCard.Service.Repository\\AcessoCard.Service.Repository.csproj
+		SccProjectUniqueName5 = AcessoCard.Service.WebApi\\AcessoCard.Service.WebApi.csproj
 		SccProjectTopLevelParentUniqueName5 = AcessoCard.sln
-		SccProjectName5 = AcessoCard.Service.Repository
-		SccLocalPath5 = AcessoCard.Service.Repository
-		SccProjectUniqueName6 = AcessoCard.Service.WebApi\\AcessoCard.Service.WebApi.csproj
+		SccProjectName5 = AcessoCard.Service.WebApi
+		SccLocalPath5 = AcessoCard.Service.WebApi
+		SccProjectUniqueName6 = AcessoCard.UI.MVC\\AcessoCard.UI.MVC.csproj
 		SccProjectTopLevelParentUniqueName6 = AcessoCard.sln
-		SccProjectName6 = AcessoCard.Service.WebApi
-		SccLocalPath6 = AcessoCard.Service.WebApi
-		SccProjectUniqueName7 = AcessoCard.UI.MVC\\AcessoCard.UI.MVC.csproj
+		SccProjectName6 = AcessoCard.UI.MVC
+		SccLocalPath6 = AcessoCard.UI.MVC
+		SccProjectUniqueName7 = AcessoCard.Repository\\AcessoCard.Repository.csproj
 		SccProjectTopLevelParentUniqueName7 = AcessoCard.sln
-		SccProjectName7 = AcessoCard.UI.MVC
-		SccLocalPath7 = AcessoCard.UI.MVC
+		SccProjectName7 = AcessoCard.Repository
+		SccLocalPath7 = AcessoCard.Repository
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,14 +95,14 @@ Global
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,7 +119,7 @@ Global
 		{6EF5F1BC-FAFB-450E-AEF7-A1251FEBA68B} = {F991F6DC-0B28-49F7-85D4-027BD1A76241}
 		{88D2FE78-51F4-4B4E-B0E1-A7FEC38BF14B} = {A90518D0-AEDA-4AA6-98AA-53348E751250}
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0} = {1DD0285E-B76B-4B43-B3E2-F8E576FF07A6}
-		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9} = {88D2FE78-51F4-4B4E-B0E1-A7FEC38BF14B}
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F} = {65394CCE-F98D-444B-9D28-4BF5FBD10DDC}
+		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9} = {88D2FE78-51F4-4B4E-B0E1-A7FEC38BF14B}
 	EndGlobalSection
 EndGlobal

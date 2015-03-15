@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using AcessoCard.Models;
 
-namespace AcessoCard.Service.Repository
+namespace AcessoCard.Repository
 {
-    public sealed class ContatoRep : Contracts.Crud<ContatoMod>
+    public sealed class UserRep : Contracts.Crud<UserMod>
     {
     }
 }

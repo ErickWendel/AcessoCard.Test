@@ -10,3 +10,15 @@ C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.DataBase\bin\Debug\EntityFrame
 C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.DataBase\obj\Debug\AcessoCard.DataBase.csprojResolveAssemblyReference.cache
 C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.DataBase\obj\Debug\AcessoCard.DataBase.dll
 C:\Users\Erick-User\Desktop\AcessoCard\AcessoCard.DataBase\obj\Debug\AcessoCard.DataBase.pdb
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\AcessoCard.DataBase.dll.config
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\AcessoCard.DataBase.dll
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\AcessoCard.DataBase.pdb
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\AcessoCard.Models.dll
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\EntityFramework.dll
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\AcessoCard.Models.pdb
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\EntityFramework.xml
+D:\Projetos\AcessoCard\AcessoCard.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\AcessoCard\AcessoCard.DataBase\obj\Debug\AcessoCard.DataBase.csprojResolveAssemblyReference.cache
+D:\Projetos\AcessoCard\AcessoCard.DataBase\obj\Debug\AcessoCard.DataBase.dll
+D:\Projetos\AcessoCard\AcessoCard.DataBase\obj\Debug\AcessoCard.DataBase.pdb
