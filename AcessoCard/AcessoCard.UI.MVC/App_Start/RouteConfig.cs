@@ -16,7 +16,7 @@ namespace AcessoCard.UI.MVC.App_Start
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "App", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Users", action = "Login", id = UrlParameter.Optional }
             );
         }
     }

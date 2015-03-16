@@ -9,9 +9,15 @@ namespace AcessoCard.UI.MVC.Controllers
     public class AppController : Controller
     {
         // GET: App
+        public ActionResult Contatos()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
+
         }
     }
 }

@@ -6,6 +6,8 @@ using System.Threading;
 using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
+using System.Web.Security;
+using AcessoCard.Business;
 using AcessoCard.Models;
 
 namespace AcessoCard.Service.WebApi.Filters
@@ -19,20 +21,21 @@ namespace AcessoCard.Service.WebApi.Filters
             {
                 LimparRecursos();
                 return;
-            };
+            }
 
             var credenciais = Encoding.GetEncoding("UTF-8").GetString(
                 Convert.FromBase64String(headersRequisicao.Parameter)).Split(':');
+
             var usuario = new UserMod {Email = credenciais[0], Senha = credenciais[1]};
 
-            var email = credenciais[0];
-            var senha = credenciais[1];
-
-            if (email == "erick.workspace@gmail.com" && senha == "123")
+            var usuarioDb = new UserBus().VerificarUsuario(usuario);
+            if (usuarioDb != null)
             {
-                var principal = new GenericPrincipal(new GenericIdentity(email), null);
+                var principal = new GenericPrincipal(new GenericIdentity(usuarioDb.Id.ToString()), null);
                 Thread.CurrentPrincipal = principal;
                 HttpContext.Current.User = principal;
+                //FormsAuthentication.SetAuthCookie(usuarioDb.Id.ToString(), false);
+
             }
             else
                 LimparRecursos();
@@ -54,8 +57,9 @@ namespace AcessoCard.Service.WebApi.Filters
             return true;
         }
 
-        private void LimparRecursos()
+        private static void LimparRecursos()
         {
+            //FormsAuthentication.SignOut();
             Thread.CurrentPrincipal = null;
             HttpContext.Current.User = null;
         }

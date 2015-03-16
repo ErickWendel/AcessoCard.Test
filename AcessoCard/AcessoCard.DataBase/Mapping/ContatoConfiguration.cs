@@ -16,7 +16,7 @@ namespace AcessoCard.DataBase.Mapping
                 .HasKey(x => x.Id);
 
             Property(m => m.Nome)
-                .HasColumnName("DS_NOME")
+                .HasColumnName("NM_NOME")
                 .HasMaxLength(200)
                 .IsRequired();
 

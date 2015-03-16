@@ -8,9 +8,11 @@ using System.Web.Http;
 using System.Web.Http.Cors;
 using AcessoCard.Business;
 using AcessoCard.Models;
+using AcessoCard.Service.WebApi.Filters;
 
 namespace AcessoCard.Service.WebApi.Controllers
 {
+
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AppController : ApiController
     {
@@ -20,6 +22,7 @@ namespace AcessoCard.Service.WebApi.Controllers
         {
             try
             {
+                
                 var list = new ContatoBus().Listar();
                 return list;
             }

@@ -31,9 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.DataBase", "Aces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Repository", "AcessoCard.Repository\AcessoCard.Repository.csproj", "{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DF8728BE-04C8-4296-8621-ED48C95070C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoCard.Common", "AcessoCard.Common\AcessoCard.Common.csproj", "{7EE62F7B-D872-4F03-A8A8-029612ADEDDB}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
+		SccNumberOfProjects = 8
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://acessocardproject.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -61,6 +65,10 @@ Global
 		SccProjectTopLevelParentUniqueName6 = AcessoCard.sln
 		SccProjectName6 = AcessoCard.Repository
 		SccLocalPath6 = AcessoCard.Repository
+		SccProjectUniqueName7 = AcessoCard.Common\\AcessoCard.Common.csproj
+		SccProjectTopLevelParentUniqueName7 = AcessoCard.sln
+		SccProjectName7 = AcessoCard.Common
+		SccLocalPath7 = AcessoCard.Common
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +99,10 @@ Global
 		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE62F7B-D872-4F03-A8A8-029612ADEDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE62F7B-D872-4F03-A8A8-029612ADEDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE62F7B-D872-4F03-A8A8-029612ADEDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE62F7B-D872-4F03-A8A8-029612ADEDDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,5 +119,7 @@ Global
 		{A4A394B1-1431-4DAA-A6FD-4F1ADFC9DFE0} = {1DD0285E-B76B-4B43-B3E2-F8E576FF07A6}
 		{52EDACD9-F5FA-4E6C-8DF8-5563DD889D1F} = {65394CCE-F98D-444B-9D28-4BF5FBD10DDC}
 		{37CABFAB-2EDD-4F5D-AC4F-F9CF45396FF9} = {88D2FE78-51F4-4B4E-B0E1-A7FEC38BF14B}
+		{DF8728BE-04C8-4296-8621-ED48C95070C5} = {A90518D0-AEDA-4AA6-98AA-53348E751250}
+		{7EE62F7B-D872-4F03-A8A8-029612ADEDDB} = {DF8728BE-04C8-4296-8621-ED48C95070C5}
 	EndGlobalSection
 EndGlobal

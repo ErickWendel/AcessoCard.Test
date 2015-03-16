@@ -13,7 +13,8 @@ namespace AcessoCard.UI.MVC
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes); 
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            
         }
     }
 }

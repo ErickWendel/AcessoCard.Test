@@ -42,6 +42,8 @@ D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Cors.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.Cors.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.WebHost.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Repository.dll
+D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Common.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.DataBase.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Business.pdb
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Models.pdb
@@ -52,9 +54,9 @@ D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.xml
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.Cors.xml
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\Newtonsoft.Json.xml
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\System.Web.Http.WebHost.xml
+D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Repository.pdb
+D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Common.pdb
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.DataBase.pdb
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\obj\Debug\AcessoCard.Service.WebApi.csprojResolveAssemblyReference.cache
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\obj\Debug\AcessoCard.Service.WebApi.dll
 D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\obj\Debug\AcessoCard.Service.WebApi.pdb
-D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Repository.dll
-D:\Projetos\AcessoCard\AcessoCard.Service.WebApi\bin\AcessoCard.Repository.pdb

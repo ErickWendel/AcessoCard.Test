@@ -15,6 +15,11 @@ namespace AcessoCard.DataBase.Mapping
             ToTable("TB_USER")
                 .HasKey(m => m.Id);
 
+            Property(m => m.Nome)
+                .HasColumnName("NM_NOME")
+                .HasMaxLength(200)
+                .IsRequired();
+
             Property(m => m.Email)
                 .HasColumnName("DS_EMAIL")
                 .HasMaxLength(200)
@@ -24,6 +29,8 @@ namespace AcessoCard.DataBase.Mapping
                 .HasColumnName("DS_SENHA")
                 .HasMaxLength(200)
                 .IsRequired();
+            
+            Ignore(m => m.ConfirmarSenha);
         }
     }
 }

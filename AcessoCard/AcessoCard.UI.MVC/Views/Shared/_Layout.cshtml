@@ -7,43 +7,37 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
-    
+
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script src="~/Scripts/angular.min.js"></script>
-    @RenderSection("scripts", false)
 
 
 </head>
 <body>
-    <!--<div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-            </div>
-        </div>
-    </div>-->
-    
-    <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Contatos</a></li>
-        <li role="presentation"><a href="#">Messages</a></li>
-    </ul>
+    @{
+        var url = Request.Url.ToString();
+
+        if (!(url.Contains("Login") || url.Contains("Recuperar") || url.EndsWith("/") || url.Contains("Login")))
+        {
+            <ul class="nav nav-tabs nav-justified">
+                <li role="presentation">
+                    @Html.ActionLink("Vizualizar/Gerenciar Contatos", "Contatos", "App")
+                </li>
+                <li role="presentation" class="right">
+                    @Html.ActionLink("Alterar Senha", "AlterarSenha", "Users")
+                </li>
+            </ul>
+        }
+    }
+
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Erick Wendel Web Developer</p>
+        <footer style="text-align: center">
+            <p>@DateTime.Now.Year - Erick Wendel Web Developer</p>
+            @RenderSection("scripts", false)
 
 
         </footer>

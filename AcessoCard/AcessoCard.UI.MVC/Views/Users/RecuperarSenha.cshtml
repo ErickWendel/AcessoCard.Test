@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Signin";
+}
+@model AcessoCard.Models.UserMod
+
+@section scripts{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/App/UserController.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+<section ng-app="recuperarSenha">
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+    <section class="container" ng-controller="UserController">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBox("Email", null, new
+           {
+               @ng_model = "User.email",
+               @class = "form-control",
+               @placeholder = "Digite seu email",
+               @type = "email",
+               @ng_required = "true"
+           })
+            @Html.ValidationMessage("Email")
+
+        </div>
+
+        <div>
+            <button type="button" id="btnEnviar" class="btn btn-success" ng-click="recuperarSenha($event)">Enviar</button>
+            <button type="button" onclick="location.href = '/users/Login'" class="btn btn-info"> Voltar à Login</button>
+        </div>
+        <br />
+
+        <div id="mensagens" ng-bind="mensagem"></div>
+    </section>
+    }
+
+</section>

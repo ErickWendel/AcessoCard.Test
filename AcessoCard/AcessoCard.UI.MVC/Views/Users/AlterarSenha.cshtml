@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Alterar Senha";
+}
+@model AcessoCard.Models.UserMod
+
+@section scripts{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/App/UserController.js"></script>
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+<section ng-app="recuperarSenha" style="margin: 100px 451px;">
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <section class="container" ng-controller="UserController" ng-init="alterarSenhaInit()">
+
+            <div class="form-group">
+                @Html.Label("Senha", "Digite sua Senha antiga")
+                <input type="password" name="senha2" ng-model="Senha.antiga" ng-required="true" class="form-control" placeholder="Digite sua senha" />
+
+
+                @Html.LabelFor(m => m.Senha, "Digite a Nova Senha")
+                @Html.TextBoxFor(x => x.Senha, new
+                {
+                    @ng_model = "User.senha",
+                    @class = "form-control",
+                    @placeholder = "Digite sua senha",
+                    @type = "password",
+                    @ng_required = "true"
+                })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.ConfirmarSenha, "Digite Novamente a senha")
+                @Html.TextBoxFor(x => x.ConfirmarSenha, new
+                        {
+                            @class = "form-control",
+                            @placeholder = "Digite novamente sua senha",
+                            @type = "password",
+                            @ng_required = "true"
+                        })
+            </div>
+
+            <div>
+                <button type="button" id="btnEnviar" class="btn btn-success" ng-click="alterarSenha($event)">Enviar</button>
+            </div>
+            <br />
+            <div id="mensagens" ng-bind="mensagem"></div>
+        </section>
+    }
+
+</section>

@@ -1,30 +1,34 @@
 ﻿var Autenticacao = angular.module("login", []);
 
 Autenticacao.controller("AutenticacaoController", function ($scope, $http) {
-
-    $scope.logar = function (evento) { 
-        var form = $('form').valid();
-        if (form) {
+    $scope.inicializar = function () {
+       localStorage.removeItem("user");
+    };
+    $scope.logar = function (evento) {
+        var validar = $('form').valid();
+        if (validar) {
             var btn = $(evento.currentTarget);
-            btn.button('Carregando...');
+            $(btn).text('Carregando...');
 
             var email = $scope.User.email;
             var senha = $scope.User.senha;
             var token = email.concat(":", senha);
 
             $http({
-                method: 'GET',
+                method: 'POST',
                 url: 'http://localhost:4129/api/Login',
                 headers: { 'Authorization': 'Basic '.concat(btoa(token)) }
             })
                 .success(function (data) {
-                    $scope.mensagem = data;
-
+                    localStorage['user'] = email; 
+                    location.href = data;
+                   
                 })
                 .error(function (data) {
                     $scope.mensagem = data.Message;
+                    $(btn).text('Enviar');
                 });
-            btn.button('reset');
+             
 
         }
 

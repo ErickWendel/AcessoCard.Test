@@ -12,8 +12,7 @@ namespace AcessoCard.Repository.Base.Interfaces
        void Atualizar(T item);
        IEnumerable<T> Listar();
        void Deletar(int id);
-       T GetById(int id);
-
+       T GetById(int id); 
 
    }
 }

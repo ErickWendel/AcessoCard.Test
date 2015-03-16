@@ -49,6 +49,10 @@
     <Compile Include="UserBus.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AcessoCard.Common\AcessoCard.Common.csproj">
+      <Project>{7ee62f7b-d872-4f03-a8a8-029612adeddb}</Project>
+      <Name>AcessoCard.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AcessoCard.Models\AcessoCard.Models.csproj">
       <Project>{60a4d992-97c1-42b2-a7f9-7ddf439f6d34}</Project>
       <Name>AcessoCard.Models</Name>
