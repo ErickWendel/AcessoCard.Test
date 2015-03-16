@@ -1,4 +1,0 @@
-D:\Projetos\AcessoCard\AcessoCard.Common\bin\Debug\AcessoCard.Common.dll
-D:\Projetos\AcessoCard\AcessoCard.Common\bin\Debug\AcessoCard.Common.pdb
-D:\Projetos\AcessoCard\AcessoCard.Common\obj\Debug\AcessoCard.Common.dll
-D:\Projetos\AcessoCard\AcessoCard.Common\obj\Debug\AcessoCard.Common.pdb
